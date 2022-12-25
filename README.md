@@ -24,22 +24,12 @@ macOS and Linux
 ```
 pip install discord.py
 
-# for Python 3
+# Additional installation commands if needed
 pip3 install discord.py
-
-# if you get permissions error
 sudo pip3 install discord.py
-
-# if you don't have pip in your PATH environment variable
 python -m pip install discord.py
-
-# for python 3
 python3 -m pip install discord.py
-
-# alternative if you get permissions error
 pip install discord.py --user
-
-# for Anaconda
 conda install -c conda-forge discord.py
 ```
 
@@ -47,21 +37,16 @@ Windows
 ```
 pip install discord.py
 
-# for Python 3
+# Additional installation commands if needed
 pip3 install discord.py
-
-# if you don't have pip in your PATH environment variable
 python -m pip install discord.py
-
-# for Python 3
 python3 -m pip install discord.py
-
-# using py alias *(This is what I had to use)*
-py -m pip install discord.py
-
-# if you get permissions error
+py -m pip install discord.py # This is what I used
 pip install discord.py --user
-
-# for Anaconda
 conda install -c conda-forge discord.py
+```
+
+**3. Install python-dotenv
+```
+pip install python-dotenv
 ```
