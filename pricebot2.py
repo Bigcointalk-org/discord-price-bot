@@ -18,9 +18,7 @@ def get_latest_crypto_price(crypto):
         response = requests.get(BTC_API_URL)
     elif crypto == 'eth':
         response = requests.get(ETH_API_URL)
-        
     response_json = response.json()
-    #return float(response_json[0]['USD'])
     return response_json['USD'];
 
 class MyClient(discord.Client):
