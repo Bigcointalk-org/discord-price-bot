@@ -1,5 +1,4 @@
 import os
-import asyncio
 import logging
 import requests
 import discord
