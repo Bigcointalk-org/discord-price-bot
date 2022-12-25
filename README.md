@@ -55,7 +55,7 @@ pip install python-dotenv
 ```
 python pricebot2.py
 
-# Additional installation commands if needed
+# Additional run commands if needed
 py pricebot2.py
 python3 pricebot2.py
 sudo python pricebot2.py
