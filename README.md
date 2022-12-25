@@ -46,7 +46,7 @@ pip install discord.py --user
 conda install -c conda-forge discord.py
 ```
 
-**3. Install python-dotenv
+**3. Install python-dotenv**
 ```
 pip install python-dotenv
 ```
