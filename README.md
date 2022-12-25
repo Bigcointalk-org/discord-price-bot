@@ -50,3 +50,13 @@ conda install -c conda-forge discord.py
 ```
 pip install python-dotenv
 ```
+
+**4. Run pricebot2.py**
+```
+python pricebot2.py
+
+# Additional installation commands if needed
+py pricebot2.py
+python3 pricebot2.py
+sudo python pricebot2.py
+```
