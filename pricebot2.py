@@ -43,12 +43,12 @@ class MyClient(discord.Client):
             price = get_latest_crypto_price('btc')
             pct_change = str(round(get_change(btc_last_price, price), 2))
             btc_last_price = price
-            return await message.channel.send(f'Bitcoin (BTC): {price} ({pct_change})')
+            return await message.channel.send(f'Bitcoin (BTC): {price} ({pct_change}%)')
         elif message.content == '!eth':
             price = get_latest_crypto_price('eth')
             pct_change = str(round(get_change(eth_last_price, price), 2))
             eth_last_price = price
-            return await message.channel.send(f'Ethereum (ETH): {price} ({pct_change})')
+            return await message.channel.send(f'Ethereum (ETH): {price} ({pct_change}%)')
 
 
 btc_last_price = float(get_latest_crypto_price('btc'))
