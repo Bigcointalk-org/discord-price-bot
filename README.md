@@ -12,6 +12,9 @@ Chat publicly about it @ https://bigcointalk.org/viewtopic.php?t=8
 
 !eth - Ethereum
 
+## Updates
+ - 12-28-22 - Added percent change of price
+
 ## Usage
 **1. Create a file named '.env' with the following contents**
 ```
