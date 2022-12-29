@@ -1,7 +1,7 @@
 # Discord PriceBot
 A discord bot for displaying the current price of a selected cryptocurrency.
 
-<img src="https://raw.githubusercontent.com/Bigcointalk-org/discord-price-bot/main/screenshot-discord-price-bot.png">
+<img src="https://raw.githubusercontent.com/Bigcointalk-org/discord-price-bot/main/screenshot-discord-price-bot-update.png">
 
 Test it now @ https://discord.gg/PY5SQ3DXmv
 
@@ -11,6 +11,9 @@ Chat publicly about it @ https://bigcointalk.org/viewtopic.php?t=8
 !btc - Bitcoin
 
 !eth - Ethereum
+
+## Updates
+ - (12-28-22) Added percent change of price
 
 ## Usage
 **1. Create a file named '.env' with the following contents**
