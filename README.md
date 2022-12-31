@@ -46,7 +46,9 @@ Missing your favorite coin? Email us hello@bigcointalk
 !coins - Displays a list of supported cryptocurrency projects.
 ```
 
-## Updates
- - (12-28-22) Added percent change of price
+
+Discord bot cog template by nonchris:
+
+https://github.com/nonchris/discord-bot
 
 
