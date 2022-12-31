@@ -5,6 +5,10 @@ Test it now @ https://discord.gg/PY5SQ3DXmv
 
 Chat publicly about it @ https://bigcointalk.org/viewtopic.php?t=8
 
+**Supported Projects** 
+
+Bitcoin, Ethereum, Ripple, DogeCoin, Cardano, Polygon, Dai, Polkadot, TRON, Litecoin, Shiba Inu, Solana, Uniswap, Avalanche
+
 ## Help Command
 
 `!help <optional-module>`
