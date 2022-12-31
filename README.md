@@ -1,9 +1,19 @@
-# Discord PriceBot
-A discord bot for displaying the current price of a cryptocurrency.
+# PriceBot on [Discord](https://discord.gg/PY5SQ3DXmv)
+A discord bot doing cool things with crypto.
 
 Test it now @ https://discord.gg/PY5SQ3DXmv
 
 Chat publicly about it @ https://bigcointalk.org/viewtopic.php?t=8
+
+## Help Command
+
+**!help <optional-module>**
+
+```
+!help - Displays the help menu
+!help crypto - Displays the crypto help menu
+!help misc - Displays misc. help menu
+```
 
 ## Cryptocurrency Commands
 
