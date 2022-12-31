@@ -1,5 +1,5 @@
 # PriceBot on [Discord](https://discord.gg/PY5SQ3DXmv)
-A discord bot doing cool things with crypto.
+A discord bot doing cool things with crypto. Possibly, the worlds fastest way to convert BTC to SHIB, ETH, USDT, USD and XRP simultaneously.
 
 [chat about it](https://bigcointalk.org/viewtopic.php?t=8) OR [test it now](https://discord.gg/PY5SQ3DXmv)
 
