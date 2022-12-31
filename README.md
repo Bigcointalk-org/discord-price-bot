@@ -1,9 +1,7 @@
 # PriceBot on [Discord](https://discord.gg/PY5SQ3DXmv)
 A discord bot doing cool things with crypto.
 
-Test it now @ https://discord.gg/PY5SQ3DXmv
-
-Chat publicly about it @ https://bigcointalk.org/viewtopic.php?t=8
+[chat about it](https://bigcointalk.org/viewtopic.php?t=8) OR [test it now](https://discord.gg/PY5SQ3DXmv)
 
 **We currently support the following cryptocurrency projects...** 
 
