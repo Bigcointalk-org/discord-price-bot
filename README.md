@@ -7,7 +7,7 @@ Chat publicly about it @ https://bigcointalk.org/viewtopic.php?t=8
 
 ## Help Command
 
-**!help <optional-module>**
+`!help <optional-module>`
 
 ```
 !help - Displays the help menu
@@ -17,7 +17,7 @@ Chat publicly about it @ https://bigcointalk.org/viewtopic.php?t=8
 
 ## Cryptocurrency Commands
 
-**!price <currency> <optional-output-currency>**
+`!price <currency> <optional-output-currency>`
 
 ```
 !price btc - Displays the price of BTC in USDT, USDT is the default when empty
@@ -25,7 +25,7 @@ Chat publicly about it @ https://bigcointalk.org/viewtopic.php?t=8
 !price shib eth - Displays the price of SHIB in ETH
 ```
 
-**!convert <currency> <csv-output-currencies>**
+`!convert <currency> <csv-output-currencies>`
 
 `This function operates similar to !price, however, !convert allows you to convert into multiple currencies simultaneously.`
 
@@ -34,7 +34,7 @@ Chat publicly about it @ https://bigcointalk.org/viewtopic.php?t=8
 !convert btc usd,usdt,eth,matic - Displays the price of BTC in USD,USDT,ETH,MATIC
 ```
 
-**!coins**
+`!coins`
 
 ```
 !coins - Displays a list of supported cryptocurrency projects.
