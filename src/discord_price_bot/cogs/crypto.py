@@ -88,6 +88,35 @@ class Crypto(commands.Cog):
             coins_string += f"{coin['name']} ({coin['symbol']})\n"
         await ctx.send(embed=ut.make_embed(name='**Supported Projects**', value=f'Currently, we support the following projects. \n\n'+str(coins_string)))
         
+        
+    @commands.command(description='All')
+    async def all(self, ctx, left: str):
+        """Converts coin to all available currencies."""
+        print(f'({left})')
+        coin_in = search(coins_supported, left.lower())
+        coin_out = 'USD,USDT,USDC,BTC,ETH,XRP,DOGE,ADA,MATIC,DAI,DOT,TRX,LTC,SHIB,SOL,UNI,AVAX'
+        right = 'USD,USDT,USDC,BTC,ETH,XRP,DOGE,ADA,MATIC,DAI,DOT,TRX,LTC,SHIB,SOL,UNI,AVAX'
+        coin_out = right.split(',')
+        if coin_in:
+            for coin in coin_out:
+                found = search(coins_supported, coin.lower())
+                if found == False:
+                    await ctx.send(embed=ut.make_embed(name='**Unsupported Cryptocurrency**', value=f'__'+coin+'__ is not yet supported.'))
+                    return
+            prices = get_latest_crypto_price_multi(left, right)
+            if prices:
+                prices_string = ''
+                for coin, price in prices.items():
+                    print(f"{coin} - {price}\n")
+                    prices_string += f"{coin} - {price}\n"
+                await ctx.send(embed=ut.make_embed(name='Price of '+coin_in+' ('+left.upper()+')', value=f'Converted to '+right.upper()+' \n\n'+str(prices_string)))
+                return
+            else:
+                await ctx.send(embed=ut.make_embed(name='**Danger, Will Robinson!**', value=f'Found '+coin_in+' AND '+right+' but a problem occured.'))
+        else:
+            await ctx.send(embed=ut.make_embed(name='**Unsupported Cryptocurrency**', value=f'__'+left.upper()+'__ is not yet supported.'))
+        
+
     @commands.Cog.listener()
     async def on_message(self, message: discord.Message):
         pass
